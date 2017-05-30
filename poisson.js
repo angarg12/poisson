@@ -1,5 +1,5 @@
 function Poisson(){
-  function getPoisson(lambda) {
+  this.getPoisson(lambda) {
 	let L = Math.exp(-lambda);
 	let p = 1.0;
 	let k = 0;
